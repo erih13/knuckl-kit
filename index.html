@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>KNUCKLE KIT</title>
+
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            padding: 0;
+            margin: 0;
+            color: #525252;
+            background-color: #f1f1f1;
+        }
+
+        a {
+            color: #5b98bb;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        
+        a:hover {
+            background-color: #72b2cf;
+            color: #fff;
+        }
+
+        h1 {
+            font-weight: 400;
+        }
+
+        svg {
+            width: 36px;
+            height: 36px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .container > div {
+                width: 100%;
+            }
+
+            .content {
+                flex-direction: column;
+                font-size: 18px;
+            }
+
+                .heading {
+                    margin-top: 60px;
+                    margin-bottom: 60px;
+                    text-align: center;
+                }
+
+                .label {
+                    margin-top: 40px;
+                    font-size: 15px;
+                }
+
+                .link {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #fff;
+                    flex: 1;
+                    height: 260px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    margin-bottom: 60px;
+                }
+
+
+            @media(min-width: 767px) {
+                .container {
+                    width: 60%;
+                    height: 100vh;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .content {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                }
+
+                .heading {
+                    margin-top: 0;
+                    margin-bottom: 100px;
+                }
+
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="heading text-center">KNUCKLE KIT 網頁測試</h1>
+            <div class="content">
+                <a href="KNUCKLE-KIT.html" class="link" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                    </svg>
+                    <span>KNUCKLE KIT</span> 
+                    <span class="label">( 另開新頁 )</span>
+                </a>
+                <a href="KNUCKLE-KIT.html" class="link" download="KNUCKLE KIT">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    <span>KNUCKLE KIT</span> 
+                    <span class="label">( 檔案下載 )</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
